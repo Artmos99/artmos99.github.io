@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <style>
+        #header {
+            position: relative;
+        }
+
+        #header canvas,
+        #but,
+        #text{
+            position: absolute;
+        }
+
+        #text {
+            margin-top: 470px;
+            margin-left: 100px;
+        }
+
+
+
+        canvas {
+            background: gray;
+            border: 5px solid black;
+        }
+
+        #but {
+            margin-top: 510px;
+            margin-left: 190px;
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="header">
+    <canvas onclick="showCoords(event)" width="450" height="450">
+    </canvas>
+    <h1 id="text"></h1>
+    <button id="but" onClick="window.location.reload()">Start Again</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
