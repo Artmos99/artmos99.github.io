@@ -115,7 +115,7 @@ function checker() {
         for (l = 0; l < toWin.length; l++) {
             var z = arrComp(history[i].sort(), toWin[l])
             if (z) {
-                document.getElementById("text").innerHTML = "You win " + date.player + " player, click on start again"
+                document.getElementById("text").innerHTML = "Won " + date.player + " player, click on start again"
                 context. clearRect(0, 0, canvas. width, canvas. height);
                 lines();
             }
